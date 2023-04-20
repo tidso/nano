@@ -10,6 +10,6 @@ The POTCAR file can be copied directly from the "relax" folder as well.
 Now, take a look at INCAR. You do not need to change anything. Note that ICHARG has been set to 11 and NSW is now 0. 
 
 Open KPOINTS. You will not change anything here either. Note that it is written in reciprocal mode. 
-This lets you set the path along which you would like to sample the kpoints. We will use the path: L—G—X.
-You will want to copy the string "L—G—X" because we will use it in running the Python code. 
-Note: The string uses the long dash (—), not the short dash (-). 
+This lets you set the path along which you would like to sample the kpoints. We will use the path: L-Γ-X.
+You will want to copy or take note of the string "L-Γ-X" because we will use it in running the Python code.
+(Alternatively, you can type L-G-X. Γ references the Gamma point located in reciprocal space. In the literature, Γ is more common to see than G).
