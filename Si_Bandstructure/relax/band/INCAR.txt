@@ -1,4 +1,4 @@
- SYSTEM = Silicon (Diamond) - Relaxation
+ SYSTEM = Silicon (Diamond) - Band
 
 start parameters for this Run
  ISTART = 0 ! job: 0-new  1- orbitals from WAVECAR
