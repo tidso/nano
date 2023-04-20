@@ -1,4 +1,4 @@
-In this folder, you will perform the geometry relaxation.
+This folder contains the steps you will need to perform the geometry relaxation.
 In INCAR, this means ISIF=3 (the volume of the cell is allowed to change as VASP tries to minimize the energy).
 
 INCAR, POSCAR, KPOINTS, and si_relax_jobscript do not need any changes. 
