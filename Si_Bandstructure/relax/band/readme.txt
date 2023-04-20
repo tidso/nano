@@ -1,6 +1,6 @@
 Here we will do the bandstructure calculation.
 
-Start by copying the CHGCAR file from the "relax" folder into this folder.
+Start by copying the CHGCAR file from the "relax" folder (output) into this folder.
 
 Next, go back to the "relax" folder. Copy the contents of CONTCAR into the POSCAR file in the "band" folder.
 (The CONTCAR file gives the atomic positions after geometric relaxation).
