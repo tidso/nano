@@ -4,17 +4,13 @@ import matplotlib.pyplot as plt
 import re
 from matplotlib import gridspec
 import seaborn as sns
-import matplotlib.colors as mcolors
 from matplotlib import style
 import plotly.graph_objs as go
 import plotly.io as pio
 
-
-
 #FUNCTIONS/DEFINITIONS
 yes = {'yes','y', 'ye', ''}
 no = {'no','n'} 
-colors_used = ['blue', 'orange', 'green', 'red', 'purple', 'salmon', 'darkgreen', 'mediumpurple', 'palevioletred', 'light blue']
 
 def yes_or_no(question):
     while True:
@@ -337,10 +333,7 @@ def matplotlib_code(seek_path, total_paths, number_of_bands, sorted_EVALS, norma
     
     i = 0
     j = 0
-    colors = [sns.color_palette()[0], sns.color_palette()[1], sns.color_palette()[2],
-              sns.color_palette()[3], sns.color_palette()[4], 'salmon',
-              'darkgreen', 'mediumpurple', 'palevioletred',
-              sns.color_palette()[9]]
+    colors = ['k','k','k']
     
     for i in range(total_paths + 1):
         if i <= total_paths - 1:
