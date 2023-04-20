@@ -28,12 +28,14 @@ Set the working directory of the Python IDE to be the local folder created previ
 
 Run the code. Name the system when prompted. "Silicon (Si) Diamond" would be a good name to use.
 
-Run the plotting tool and save the plot by responding 'yes' to both prompts.
+Run the plotting tools and save the plots by responding 'yes' to all prompts.
 
-Next, run the band structure tool. You will need to tell the script what KPOINTS path was taken in the KPOINTS file located in the "band" folder. For this tutorial, we used L-Γ-X for our path through reciprocal space. Enter this path.
+When you run the band structure tool, you will need to tell the script what KPOINTS path was taken in the KPOINTS file located in the "band" folder. For this tutorial, we used L-Γ-X for our path through reciprocal space. Enter this path.
 
 Save the band structure plot.
 
 Notice that the colors for each band are printed. This is to help you identify cases of degeneracy. The bands are colored from bottom (blue) to top. If more colors are needed, it will cycle back and use blue again. However, 10 colors are provided, and many systems do not use more than 10 bands. 
+
+Open the DOS and Band Structure pdf files. Open the interactive DOS html file. Check that all files are showing correct results.
 
 All done :)
