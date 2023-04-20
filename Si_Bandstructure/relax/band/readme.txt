@@ -20,7 +20,7 @@ Create a local folder on your computer. Name it something relevant like "Si Band
 
 COPY the DOSCAR, KPOINTS, and EIGENVAL files directly from PUTTY to this local folder. You should copy the actual files to this folder. Do not copy and paste the contents of each file into .txt files or some other format. (This is best accopmlished via WinSCP or FileZilla).
 
-Once you have copied those output files over, open the BAND_STRUCTURE_AND_DOS_PLOTTING_TOOL_FINAL in a Python IDE. I recommend Spyder via the Anaconda Distribution because that is where the script was written and tested. However, let me know what other IDE's work if you try something else.
+Once you have copied those output files over, open the IDSO_VASP_PLOTTING_TOOL in a Python IDE. I recommend Spyder via the Anaconda Distribution because that is where the script was written and tested. However, let me know what other IDE's work if you try something else.
 
 Set the working directory of the Python IDE to be the local folder created previously (line 19).
 
