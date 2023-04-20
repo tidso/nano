@@ -105,7 +105,7 @@ def dos_plotting_tool(DOSCAR_path):
     plt.ylabel('DOS (states/eV/cell)')
     plt.legend()
 
-    plt.title(f'Density of States of {SYSTEM_NAME}')
+    plt.title(f'DOS of {SYSTEM_NAME}')
     if yes_or_no("Would you like to save the DOS plot? "):
         plt.savefig(f'{SYSTEM_NAME}_dos.pdf')
 
