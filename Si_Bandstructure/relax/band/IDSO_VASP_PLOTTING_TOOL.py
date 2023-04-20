@@ -343,7 +343,7 @@ def matplotlib_code(seek_path, total_paths, number_of_bands, sorted_EVALS, norma
                 ax.set_xticklabels([path_labels[i]])
                 for j in range(number_of_bands):
                     eigenvalues = sorted_EVALS[i][j::number_of_bands]
-                    plt.plot(KPOINTS_BY_PATH[i], eigenvalues - E_FERMI, c=colors[j % len(colors)], alpha=0.95)
+                    plt.plot(KPOINTS_BY_PATH[i], eigenvalues - E_FERMI, c=colors[j % len(colors)], alpha=0.5)
 
 
                 custom_ylim = (ymin, ymax)
@@ -360,7 +360,7 @@ def matplotlib_code(seek_path, total_paths, number_of_bands, sorted_EVALS, norma
                 ax.set_xticklabels([path_labels[i]])         #([path_labels[i]])
                 for j in range(number_of_bands):
                     eigenvalues = sorted_EVALS[i][j::number_of_bands]
-                    plt.plot(KPOINTS_BY_PATH[i], eigenvalues - E_FERMI, c=colors[j % len( colors)], alpha=0.95)
+                    plt.plot(KPOINTS_BY_PATH[i], eigenvalues - E_FERMI, c=colors[j % len( colors)], alpha=0.5)
 
                 custom_ylim = (ymin, ymax)
                 plt.setp(ax, ylim=custom_ylim)
@@ -489,6 +489,4 @@ if __name__ == "__main__":
     #BAND STRUCTURE PLOTTING
     if yes_or_no('Would you like to run the band structure plotting tool? '):
         bs_plotting_tool(KPOINTS_VASP_FILE, EIGENVAL_VASP_FILE, DOSCAR_VASP_FILE)
-        print(f"The bands are colored top to bottom in this order: {colors_used}")
-
 
