@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#SBATCH -N 1				# number of nodes
+#SBATCH -c 8				# number of "tasks" (default: allocates 1 core per task)
+#SBATCH -t 0-01:00			# time in d-hh:mm:ss
+
+module purge
+module load intel-mpi/5.0
+
+srun --mpi=pmi2 /home/xpeng7/VASP5/VASP533/vasp.5.3/vasp

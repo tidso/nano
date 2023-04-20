@@ -1,0 +1,1 @@
+Get the Si POTCAR file from Dr. Peng's VASP/potpaw_PBE.52 folder

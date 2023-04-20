@@ -1,0 +1,25 @@
+ SYSTEM = Silicon (Diamond) - Relaxation
+
+start parameters for this Run
+ ISTART = 0 ! job: 0-new  1- orbitals from WAVECAR
+ ICHARG = 2 ! charge: 1-file 2-atom 10-const
+
+other parameters
+ LORBIT = 12
+ LCHARG = .TRUE. ! Writes CHGCAR
+  ISPIN = 2 ! spin-polarized calculation
+   PREC = Normal
+
+electronic optimization
+  ENCUT = 500.0 ! defaults from POTCAR, but wise to include
+   ALGO = Normal ! alorithm for electron optimization (Normal: Davidson)
+   NELM = 100 ! of ELM steps, sometimes default is too small
+  EDIFF = 1.0e-05 ! stopping-criterion for ELM
+  SIGMA = 0.05
+ ISMEAR = 0 ! =0 with SIGMA = 0.05 is a good guess for semiconductors/insulators if you are unsure
+
+ionic relaxation
+ EDIFFG = -0.01 ! stopping-criterion for IOM (all forces smaller 1E-2)
+    NSW = 200 ! ionic steps
+   ISIF = 3 ! Full Geometric Relaxation
+ IBRION = 2 ! use the conjugate-gradient algorithm

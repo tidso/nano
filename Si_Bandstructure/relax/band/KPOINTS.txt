@@ -1,0 +1,9 @@
+k-points for bandstructure L—G—X
+ 50 ! This is the number of divisions along each line (50 divisions from L to Gamma, 50 from Gamma to X)
+line
+reciprocal ! This mode allows you to specify exactly what KPOINTS you wouldd like to sample the bandstructure at
+  0.50000  0.50000  0.50000    1
+  0.00000  0.00000  0.00000    1
+
+  0.00000  0.00000  0.00000    1
+  0.00000  0.50000  0.50000    1

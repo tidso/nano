@@ -1,0 +1,1 @@
+Copy and paste the exact same POTCAR file from before (from the relax folder).

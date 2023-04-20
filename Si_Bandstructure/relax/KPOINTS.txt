@@ -1,0 +1,5 @@
+KPOINTS Automatic Mesh
+0		! Automatic Generation Scheme
+Gamma		! Gamma-centered grid
+4  4  4		! subdivisions N_1, N_2, and N_3 along reciprocal lattice vectors
+0. 0. 0.	! Optional shift of mesh

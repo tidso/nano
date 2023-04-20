@@ -1,0 +1,3 @@
+Go back into the "relax" folder and copy the exact contents from CONTCAR. Paste directly here. 
+
+(CONTCAR gives the relaxed atom positions. That was the whole point of doing the "relax" run).
